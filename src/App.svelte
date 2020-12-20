@@ -1,10 +1,10 @@
 <script>
-	export let name;
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<pre>
-    code snippets
-  </pre>
+<pre>
+  <code class="language-php">
+    {`<?php
+  private $name = 'world';`}
+</code></pre>
 </main>
